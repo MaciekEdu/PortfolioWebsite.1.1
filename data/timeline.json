@@ -1,0 +1,41 @@
+[
+  {
+    "year": "2025 - Heden",
+    "title": "Software Development",
+    "company": "Koning Willem I College",
+    "category": "Opleiding ",
+    "description": "MBO niveau 4 opleiding gericht op softwareontwikkeling, programmeren, databases en webontwikkeling",
+    "technologies": [
+      "PHP",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MySQL"
+    ]
+  },
+  {
+    "year": "2022 — Heden",
+    "title": "Assistent Teamleider",
+    "company": "Jumbo",
+    "category": "Werkervaring",
+    "description": "Verantwoordelijk voor het aansturen van collega's, het bewaken van processen en het zorgen voor een goede werkvloerorganisatie.",
+    "technologies": [
+      "Teamwork",
+      "Verantwoordelijkheid",
+      "Leiderschap"
+    ]
+  },
+
+  {
+    "year": "2021-2021",
+    "title": "Bakker",
+    "company": "Van der westen Organic Family bakery",
+    "category": "Werkervaring",
+    "description": "Werkzaam geweest binnen een bakkerijomgeving waarbij kwaliteit, nauwkeurigheid en samenwerken centraal stonden.",
+    "technologies": [
+      "Samenwerken",
+      "Nauwkeurigheid",
+      "Verantwoordelijkheid"
+    ]
+  }
+]

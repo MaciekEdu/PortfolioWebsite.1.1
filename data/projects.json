@@ -1,0 +1,40 @@
+  [
+    {
+      "id": "WATCHGUARD",
+      "number": "01",
+      "title": "Project WATCHGUARD",
+      "category": "Game / Persoonlijk Project",
+      "description": "Een persoonlijk project gericht op het creëren van een duistere en meeslepende ervaring",
+      "long_description": "WATCHGUARD is een first-person horrorspel dat ik al meer dan een jaar ontwikkel in Unreal Engine 5. Het project draait om een duistere, psychologische sfeer waarin de speler wordt meegezogen in een beklemmend verhaal. Terwijl de grenzen tussen werkelijkheid en angst vervagen, kruipt het verhaal onder je huid en laat het je niet meer los.",
+      "image": "assets/images/projects/watchguard.png",
+      "technologies": [
+        "Unreal Engine 5",
+        "Blueprints",
+        "Game Design",
+        "Storytelling",
+        "Level Design"
+      ],
+      "status": "In Ontwikkeling",
+      "github": "",
+      "website": "https://store.steampowered.com"
+    },
+    {
+      "id": "portfolio",
+      "number": "02",
+      "title": "Portfolio Website",
+      "category": "Webontwikkeling",
+      "description": "Mijn persoonlijke portfolio waarin ik projecten, vaardigheden en ervaringen presenteer.",
+      "long_description": "Deze portfolio-website is ontworpen en ontwikkeld om mijn groei als software developer te laten zien. Het project is gebouwd met PHP, JavaScript, HTML, CSS en JSON. Ik richtte mij op een modern ontwerp, responsieve layouts en een gebruiksvriendelijke ervaring.",
+      "image": "assets/images/projects/website.png",
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "HTML5",
+        "CSS",
+        "JSON"
+      ],
+      "status": "Versie 1.0",
+      "github": "https://github.com/MaciekEdu",
+      "website": ""
+    }
+  ]

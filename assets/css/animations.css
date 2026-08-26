@@ -1,0 +1,190 @@
+/* ==========================================
+   HERO INTRO
+========================================== */
+
+.hero__eyebrow,
+.hero__title,
+.hero__description,
+.hero .button {
+    opacity: 0;
+
+    transform:
+            translateY(40px);
+}
+
+
+.hero__eyebrow {
+    animation:
+            heroReveal 0.8s ease forwards;
+
+    animation-delay:
+            0.2s;
+}
+
+
+.hero__title {
+    animation:
+            heroReveal 1s ease forwards;
+
+    animation-delay:
+            0.4s;
+}
+
+
+.hero__description {
+    animation:
+            heroReveal 0.8s ease forwards;
+
+    animation-delay:
+            0.7s;
+}
+
+
+.hero .button {
+    animation:
+            heroReveal 0.8s ease forwards;
+
+    animation-delay:
+            0.9s;
+}
+
+
+@keyframes heroReveal {
+
+    from {
+        opacity: 0;
+
+        transform:
+                translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+                translateY(0);
+    }
+
+}
+
+
+/* ==========================================
+   SCROLL REVEAL
+========================================== */
+
+.reveal {
+    opacity: 0;
+
+    transform:
+            translateY(60px);
+
+    transition:
+            opacity 0.8s ease,
+            transform 0.8s ease;
+}
+
+
+.reveal.visible {
+    opacity: 1;
+
+    transform:
+            translateY(0);
+}
+
+
+/* ==========================================
+   SCROLL INDICATOR
+========================================== */
+
+.scroll-indicator {
+    position: absolute;
+
+    bottom: 2rem;
+
+    left: 50%;
+
+    transform:
+            translateX(-50%);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 0.75rem;
+
+    color:
+            var(--color-text-muted);
+
+    font-size: 0.7rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.2em;
+
+    transition:
+            color 0.3s ease;
+}
+
+
+.scroll-indicator:hover {
+    color:
+            var(--color-accent-light);
+}
+
+
+.scroll-indicator__line {
+    width: 1px;
+
+    height: 50px;
+
+    background:
+            var(--color-accent);
+
+    transform-origin: top;
+
+    box-shadow:
+            0 0 10px
+            var(--color-accent);
+
+    animation:
+            scrollLine 1.5s ease-in-out infinite;
+}
+
+
+@keyframes scrollLine {
+
+    0% {
+        transform:
+                scaleY(0);
+
+        transform-origin:
+                top;
+    }
+
+    50% {
+        transform:
+                scaleY(1);
+
+        transform-origin:
+                top;
+    }
+
+    50.1% {
+        transform:
+                scaleY(1);
+
+        transform-origin:
+                bottom;
+    }
+
+    100% {
+        transform:
+                scaleY(0);
+
+        transform-origin:
+                bottom;
+    }
+
+}

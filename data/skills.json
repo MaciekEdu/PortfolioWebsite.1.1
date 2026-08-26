@@ -1,0 +1,105 @@
+[
+  {
+    "id": "php",
+    "number": "01",
+    "name": "PHP",
+    "category": "Backend",
+    "description": "Gebruikt voor het ontwikkelen van dynamische websites en webapplicaties",
+    "learned": "School & Stage",
+    "technologies": [
+      "PHP",
+      "PDO",
+      "Laravel"
+    ]
+  },
+  {
+    "id": "javascript",
+    "number": "02",
+    "name": "JavaScript",
+    "category": "Frontend",
+    "description": "Gebruikt voor het bouwen van interactieve en dynamische gebruikersinterfaces..",
+    "learned": "School & Privé",
+    "technologies": [
+      "JavaScript",
+      "DOM",
+      "Fetch API"
+    ]
+  },
+  {
+    "id": "html-css",
+    "number": "03",
+    "name": "HTML / CSS",
+    "category": "Frontend",
+    "description": "Gebruikt voor het structureren en vormgeven van responsieve websites.",
+    "learned": "School",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Responsive Design"
+    ]
+  },
+  {
+    "id": "mysql",
+    "number": "04",
+    "name": "MySQL",
+    "category": "Database",
+    "description": "Gebruikt voor het opslaan, beheren en ophalen van gegevens uit databases.",
+    "learned": "School",
+    "technologies": [
+      "MySQL",
+      "SQL",
+      "phpMyAdmin"
+    ]
+  },
+  {
+    "id": "laravel",
+    "number": "05",
+    "name": "Laravel",
+    "category": "Framework",
+    "description": "Een PHP-framework dat ik gebruik voor het ontwikkelen van moderne webapplicaties.",
+    "learned": "Stage",
+    "technologies": [
+      "Laravel",
+      "Pest",
+      "PHPUnit"
+    ]
+  },
+  {
+    "id": "Git",
+    "number": "06",
+    "name": "Git",
+    "category": "Tools",
+    "description": "Gebruikt voor versiebeheer en samenwerking binnen softwareprojecten.",
+    "learned": "School",
+    "technologies": [
+      "Git",
+      "GitHub"
+    ]
+  },
+  {
+    "id": "PHPUnit/Pest",
+    "number": "07",
+    "name": "PHPUnit/Pest",
+    "category": "Tools",
+    "description": "Gebruikt voor het schrijven en uitvoeren van geautomatiseerde tests om de kwaliteit van software te waarborgen.",
+    "learned": "Stage",
+    "technologies": [
+      "PHPUnit",
+      "Pest",
+      "Unit Testing"
+    ]
+  },
+  {
+    "id": "C#",
+    "number": "08",
+    "name": "C#",
+    "category": "Backend",
+    "description": "Gebruikt voor het ontwikkelen van applicaties, games en objectgeoriënteerde software.",
+    "learned": "School & Thuis",
+    "technologies": [
+      "C#",
+      ".NET",
+      "Object-Oriented Programming"
+    ]
+  }
+]

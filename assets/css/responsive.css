@@ -1,0 +1,596 @@
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 1000px) {
+
+    .project {
+
+        grid-template-columns:
+            70px
+            1fr
+            40%;
+
+        gap:
+                2rem;
+
+    }
+
+
+    .project__image {
+
+        height:
+                280px;
+
+    }
+
+
+    .about-grid {
+
+        gap:
+                3rem;
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+
+    /* ==========================================
+       CONTAINER
+    ========================================== */
+
+    .container {
+
+        width:
+                calc(100% - 2rem);
+
+    }
+
+
+    /* ==========================================
+       NAVBAR
+    ========================================== */
+
+    .navbar__container {
+
+        width:
+                calc(100% - 2rem);
+
+    }
+
+
+    .navbar__links {
+
+        display:
+                none;
+
+    }
+
+
+    .navbar__menu {
+
+        display:
+                block;
+
+    }
+
+
+    /* ==========================================
+       HERO
+    ========================================== */
+
+    .hero__title {
+
+        font-size:
+                clamp(
+                        4rem,
+                        18vw,
+                        7rem
+                );
+
+    }
+
+
+    .hero__title span {
+
+        margin-left:
+                0;
+
+    }
+
+
+    .hero__description {
+
+        margin-left:
+                0;
+
+        max-width:
+                90%;
+
+    }
+
+
+    .hero .button {
+
+        margin-left:
+                0;
+
+    }
+
+
+    .hero__year {
+
+        top:
+                6rem;
+
+        right:
+                1rem;
+
+    }
+
+
+    /* ==========================================
+       SECTIONS
+    ========================================== */
+
+    .section {
+
+        min-height:
+                auto;
+
+        padding:
+                7rem 0;
+
+    }
+
+
+    .section__title {
+
+        font-size:
+                clamp(
+                        3rem,
+                        14vw,
+                        5rem
+                );
+
+    }
+
+
+    /* ==========================================
+       ABOUT
+    ========================================== */
+
+    .about-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+                3rem;
+
+        margin-top:
+                4rem;
+
+    }
+
+
+    .about-text .about-intro {
+
+        font-size:
+                1.5rem;
+
+    }
+
+
+    .about-stats {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+                3rem;
+
+        margin-top:
+                5rem;
+
+    }
+
+
+    .stat__number {
+
+        font-size:
+                4rem;
+
+    }
+
+
+    /* ==========================================
+       SKILLS
+    ========================================== */
+
+    .skills-grid {
+
+        grid-template-columns:
+            1fr;
+
+        margin-top:
+                4rem;
+
+    }
+
+
+    .skill {
+
+        min-height:
+                200px;
+
+        padding:
+                1.5rem;
+
+    }
+
+
+    .skill__main {
+
+        margin-top:
+                3rem;
+
+    }
+
+
+    .skill__name {
+
+        font-size:
+                2.5rem;
+
+    }
+
+
+    /*
+    Mobile doesn't have normal hover,
+    so details are always visible.
+    */
+
+    .skill__details {
+
+        position:
+                static;
+
+        margin-top:
+                2rem;
+
+        opacity:
+                1;
+
+        transform:
+                none;
+
+    }
+
+
+    /* ==========================================
+       PROJECTS
+    ========================================== */
+
+    .projects-list {
+
+        margin-top:
+                4rem;
+
+    }
+
+
+    .project {
+
+        display:
+                flex;
+
+        flex-direction:
+                column;
+
+        align-items:
+                flex-start;
+
+        gap:
+                1.5rem;
+
+        padding:
+                3rem 0;
+
+    }
+
+
+    .project__number {
+
+        order:
+                1;
+
+    }
+
+
+    .project__content {
+
+        order:
+                2;
+
+    }
+
+
+    .project__title {
+
+        font-size:
+                3rem;
+
+    }
+
+
+    .project__description {
+
+        font-size:
+                0.95rem;
+
+    }
+
+
+    .project__image {
+
+        width:
+                100%;
+
+        height:
+                250px;
+
+        order:
+                3;
+
+    }
+
+
+    /* ==========================================
+       TIMELINE
+    ========================================== */
+
+    .timeline {
+
+        margin-top:
+                4rem;
+
+        padding-left:
+                1.5rem;
+
+    }
+
+
+    /* ==========================================
+       CONTACT
+    ========================================== */
+
+    .section--contact {
+
+        min-height:
+                80vh;
+
+    }
+
+
+    /* ==========================================
+       SCROLL INDICATOR
+    ========================================== */
+
+    .scroll-indicator {
+
+        bottom:
+                1.5rem;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width: 480px) {
+
+    .hero__title {
+
+        font-size:
+                4rem;
+
+    }
+
+
+    .section__title {
+
+        font-size:
+                3rem;
+
+    }
+
+
+    .project__title {
+
+        font-size:
+                2.5rem;
+
+    }
+
+
+    .project__image {
+
+        height:
+                220px;
+
+    }
+
+}
+/* ==================================================
+   PROJECT PAGE RESPONSIVE
+================================================== */
+
+@media (max-width: 900px) {
+
+    .project-page {
+
+        padding:
+                140px 0 80px;
+
+    }
+
+
+    .project-page__back {
+
+        margin-bottom:
+                4rem;
+
+    }
+
+
+    .project-page__title {
+
+        font-size:
+                clamp(
+                        3.5rem,
+                        12vw,
+                        7rem
+                );
+
+    }
+
+
+    .project-page__image {
+
+        height:
+                450px;
+
+        margin:
+                5rem 0;
+
+    }
+
+
+    .project-page__grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+                4rem;
+
+    }
+
+
+    .project-page__sidebar {
+
+        display:
+                grid;
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap:
+                2rem;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .project-page {
+
+        padding:
+                120px 0 60px;
+
+    }
+
+
+    .project-page__meta {
+
+        flex-direction:
+                column;
+
+        align-items:
+                flex-start;
+
+        gap:
+                0.5rem;
+
+    }
+
+
+    .project-page__title {
+
+        font-size:
+                clamp(
+                        3rem,
+                        15vw,
+                        5rem
+                );
+
+    }
+
+
+    .project-page__intro {
+
+        font-size:
+                1rem;
+
+    }
+
+
+    .project-page__image {
+
+        height:
+                280px;
+
+        margin:
+                4rem 0;
+
+        border-radius:
+                12px;
+
+    }
+
+
+    .project-page__grid {
+
+        padding-top:
+                3rem;
+
+    }
+
+
+    .project-page__main h2 {
+
+        font-size:
+                3rem;
+
+    }
+
+
+    .project-page__sidebar {
+
+        display:
+                flex;
+
+    }
+
+
+    .project-page__bottom {
+
+        padding-top:
+                5rem;
+
+    }
+
+}

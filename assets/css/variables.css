@@ -1,0 +1,84 @@
+:root {
+
+    /* ==========================================
+       COLORS
+    ========================================== */
+
+    --color-background: #05070D;
+
+    --color-background-light: #080C16;
+
+    --color-surface: #0B1120;
+
+    --color-surface-light: #111A2D;
+
+    --color-text: #F5F7FF;
+
+    --color-text-muted: #8791A8;
+
+    --color-accent: #3B82F6;
+
+    --color-accent-light: #60A5FA;
+
+    --color-accent-dark: #2563EB;
+
+    --color-purple: #7C3AED;
+
+    --color-border: rgba(255, 255, 255, 0.08);
+
+
+    /* ==========================================
+       TYPOGRAPHY
+    ========================================== */
+
+    --font-primary:
+            Arial,
+            Helvetica,
+            sans-serif;
+
+
+    /* ==========================================
+       LAYOUT
+    ========================================== */
+
+    --container-width: 1200px;
+
+
+    /* ==========================================
+       SPACING
+    ========================================== */
+
+    --spacing-xs: 0.5rem;
+
+    --spacing-sm: 1rem;
+
+    --spacing-md: 2rem;
+
+    --spacing-lg: 4rem;
+
+    --spacing-xl: 8rem;
+
+
+    /* ==========================================
+       COMPONENTS
+    ========================================== */
+
+    --border-radius: 16px;
+
+    --border-radius-small: 10px;
+
+
+    /* ==========================================
+       TRANSITIONS
+    ========================================== */
+
+    --transition-fast:
+            0.2s ease;
+
+    --transition-normal:
+            0.4s ease;
+
+    --transition-slow:
+            0.8s ease;
+
+}
